@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>ClimApp</title>
+    <!-- Required meta tags -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body class="is-preload">
+
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+
+        <!-- Wrapper -->
+        <div id="wrapper">
+
+            <!-- Panel (Banner) -->
+            <section class="panel banner right">
+                <div class="content color0 span-3-75">
+                    <h1 class="major">Hola, soy<br />
+                        César</h1>
+                    <p>Esto es <strong>ClimApp</strong>. Mi primera aplicación web, sirve para conocer el estado del
+                        clima en cualquier ciudad del mundo. Espero que te guste!</p>
+                    <ul class="actions">
+                        <li><a href="#first" class="button primary color1 circle icon solid fa-angle-right">Next</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="image filtered span-1-75" data-position="25% 25%">
+                    <img src="images/bg005.jpg" alt="" />
+                </div>
+            </section>
+
+
+
+            <!-- Panel (Spotlight) -->
+            <section class="panel spotlight medium" id="first">
+                <div class="content span-7">
+
+                    <div class='container align-center'>
+                        <img class='wicon' id='icon'>
+                        <p id='place'></p>
+                    </div>
+
+                    <div class='info align-center'>
+                        TEMPERATURA: <span id='weather'>-</span></br>
+                        MIN: <span id='min'>-</span></br>
+                        MAX: <span id='max'>-</span></br>
+                        HUMEDAD: <span id='humidity'>-</span>
+                    </div>
+
+                    </br>
+                    <form class='align-center'>
+                        <input type='text' id='input' placeholder="Nombre de ciudad" onkeypress="trigger()">
+                        <button id='myBtn' class='btn btn-primary' type="button" onclick="getData()">Solicitar</button>
+                    </form>
+
+                    <div class='align-center'>César Nagamine T.</div>
+                </div>
+                <div class="image filtered tinted" data-position="top left">
+                    <img src="images/pic02.jpg" alt="" />
+                </div>
+            </section>
+
+
+
+            <!-- Panel -->
+            <section class="panel color4-alt">
+                <div class="intro color4">
+                    <h2 class="major">Contáctanos</h2>
+                    <div class="span-1-5">
+                        <ul class="contact-icons color1">
+                            <li class="icon brands fa-twitter"><a href="#">@naga.co.tld</a></li>
+                            <li class="icon brands fa-facebook-f"><a href="#">facebook.com/naga.co.</a></li>
+                            <li class="icon brands fa-instagram"><a href="#">@naga.co.tld</a></li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </section>
+            <!-- Copyright -->
+            <div class="copyright">&copy; César Nagamine T.</div>
+
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <!-- Optional JavaScript -->
+    <script defer src='script.js'></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

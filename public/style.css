@@ -1,0 +1,58 @@
+.weather-container {
+  background-color: rgba(0, 255, 242, 0.226);
+  position: absolute;
+  height: 400px;
+  max-height: 90%;
+  width: 600px;
+  min-width: 60%;
+  border-radius: 15px;
+  text-align: center;
+  padding: 20px;
+  top: 50%;
+  left: 50%;
+  overflow: auto;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+body {
+  background-image: url('https://www.shell.com/energy-and-innovation/the-energy-future/scenarios/shell-scenario-sky/_jcr_content/pagePromo/image.img.960.jpeg/1548184031017/clear-blue-sky.jpeg');
+  background-position: center;
+  max-height: 50%;
+  max-width: 50%;
+}
+
+.info {
+  font-size: 20px;
+}
+
+.container {
+  height: 100px;
+  width: 100px;
+  font-size: 25px;
+}
+
+#place {
+  font-weight: bold;
+}
+
+#weather {
+  font-size: 25px;
+  margin: 0;
+}
+
+.temp {
+  font-size: 60px;
+  margin: 0;
+}
+
+footer {
+  margin-bottom: 10px;
+}
+
+#icon {
+  font-size: 2em;
+}

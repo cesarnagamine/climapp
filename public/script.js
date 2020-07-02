@@ -18,7 +18,7 @@ function getData() {
 
     const appID = '1e2744f54600c98b66019bd3c92053f6';
 
-    const api_url = 'http://api.openweathermap.org/data/2.5/weather?q='
+    const api_url = 'https://api.openweathermap.org/data/2.5/weather?q='
         + city + '&units=metric&appid=' + appID;
 
     async function getAPI() {
@@ -28,7 +28,7 @@ function getData() {
 
         console.log(data.main.temp);
 
-        const icon = 'http://openweathermap.org/img/w/' + data.weather[0].icon + '.png';
+        const icon = 'https://openweathermap.org/img/w/' + data.weather[0].icon + '.png';
         console.log(icon);
         document.getElementById('icon').setAttribute('src', icon);
 
